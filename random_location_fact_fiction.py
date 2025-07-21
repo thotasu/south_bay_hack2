@@ -13,7 +13,7 @@ lon = random.uniform(-180, 180)
 
 client = OpenAI(api_key=key)
 
-p1 = "create a prompt to generate a video about this location: " + str(lat) + " " + str(lon)
+p1 = "create a prompt in 100 words to generate a video about this location: " + str(lat) + " " + str(lon)
 
 resp = client.chat.completions.create(
     messages=[
