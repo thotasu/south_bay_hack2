@@ -56,4 +56,4 @@ delay_in_seconds = 5 * 60
 
 street_view_url = f"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint={lat},{lon}"
 webbrowser.open(street_view_url)
-webbrowser.oepn(video_url)
+webbrowser.open(video_url)
