@@ -17,7 +17,7 @@ p1 = "create a prompt to generate a video about this location: " + str(lat) + " 
 
 resp = client.chat.completions.create(
     messages=[
-        {"role": "system", "content": "You are geopolitical expert"},
+        {"role": "system", "content": "You are a geopolitical expert"},
         {"role": "user", "content": p1}
         ],
     model="gpt-4o")
