@@ -47,7 +47,7 @@ print(f"Request submitted with ID: {response.request_id}")
 request_id = response.request_id
 
 request_detail = client.video_manager.get_request_detail(request_id)
-request_detail.status
+# request_detail.status
 video_url = request_detail.dict()["outcome"]["video_url"]
 
 
